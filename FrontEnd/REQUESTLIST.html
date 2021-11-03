@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Request Lists</title>
+  <link rel="stylesheet" href="TRMS_FORM.css">
+</head>
+<body>
+  <center>
+    <h1>This page is for Requests Submitted by Employees</h1>
+    <br>
+    <button id="SupervisorI">Information by Supervisor</button>
+    <button id="Supervisor">Approved by Supervisor</button>
+    <button id="SupervisorD">Denied by Supervisor</button>
+    <button id="DepartmentHeadI">Information by Department Head</button>
+    <button id="DepartmentHead">Approved by Department Head</button>
+    <button id="DepartmentHeadD">Denied by Department Head</button>
+    <button id="BCAI">Information by BCA</button>
+    <button id="BCA">Approved by BCA</button>
+    <button id="BCAD">Denied by BCA</button>
+  
+    <h4 id="informationS"></h4>
+    <h4 id="informationD"></h4>
+    <h4 id="informationB"></h4>
+    <button id="Supervisor1">True1</button>
+    <button id="DepartmentHead1">True2</button>
+    <button id="BCA1">True3</button>
+  </center>
+  <center>
+    <input id="idInput" type="number"> 
+    <button id="request">Enter Request ID and Click Here to View Request </button>
+    <p id="employee_id"></p>
+    <p id="urgency"></p>
+    <p id="date"></p>
+    <p id="time"></p>
+    <p id="location"></p>
+    <p id="events"></p>
+    <p id="grades"></p>
+    <p id="grades2"></p>
+    <p id="description"></p>
+    <p id="event_start_date"></p>
+    <p id="requested_cost"></p>
+    <p id="additional_attached_document"></p>
+    <p id="attached_document"></p>
+    <p id="event_reimb_cost"></p>
+    <p id="attached_document"></p>
+    <p id="approved_by_ds"></p>
+    <p id="approved_by_dh"></p>
+    <p id="approved_by_bca"></p>
+     Use this space to change Imbursement Amount
+    <input id="change_reimb" type="text">
+    <button id="rimb">Change Imbersement Amount </button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <label>Write Additional Note Here:</label><input id="additionalnote" type="text">
+    <br>
+    <br>
+    <br>
+    <br>
+    <button class="btn btn-sm btn-outline-primary" id="compose">Send Email to Employee</button>
+    <a href="./EMPLOYEE_PAGE.html">Send Email to Employee</a>
+  </center>
+  
+</body>
+<script src="./REQUESTLIST.js"></script>
+</html>

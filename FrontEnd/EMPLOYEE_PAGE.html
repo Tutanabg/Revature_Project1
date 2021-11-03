@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="TRMS_FORM.css">
+  <title>Employee Page</title>
+  
+  
+</head>
+<body>
+  <br>
+  <br>
+  <br>
+
+  <center>
+    <div style="font-size: 50px;">
+      <button class="btn btn-sm btn-outline-primary" id="inbox">Inbox</button>
+      <button class="btn btn-sm btn-outline-primary" id="compose">Compose</button>
+      <button class="btn btn-sm btn-outline-primary" id="sent">Sent</button>
+      <a style="font-size: 30px;" class="btn btn-sm btn-outline-primary" href="TRMS_Login.html">Log Out</a>
+      <h1 id="signin"></h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="emails-view">
+      <input type="number" id="idInput">
+    </div>
+    <div id="detail-view">
+    </div>
+    <div id="compose-view">
+        <h3>New Email</h3>
+        <div class="container"style="text-align: center;">
+        <div class="row">
+        <div class="col-md-6">
+        <div class="card">
+        <div class="box" style="background-color: rgb(130, 142, 150); text-align: center;"> 
+        <div class="form-group" >
+            From: <input class="form-control" id="compose-sender">
+            </div>
+        <div class="form-group">
+            To: <input id="compose-recipients" class="form-control">
+            </div>
+        <div class="form-group">
+            Subject: <input class="form-control" id="compose-subject">
+        </div>
+            Body:<input class="form-control" id="compose-body" ></input>
+            <input type="submit" value="Send" class="btn btn-primary my-3" id="btnbtn"/>   
+        </div>       
+    </div>
+  </div>
+ </div>
+</div>
+    </div>
+    <div style="font-size: 20px;">
+      <h1>Do you want to make Reimbursement Request?</h1>
+      <a class="btn btn-sm btn-outline-primary" id="trms_page" href="TRMS.html">Click here
+      </a>
+    </div>
+    <br>
+    <br>
+    <br>
+   <div style="font-size: 30px;">
+     
+  
+   </div> 
+  </center>
+</body>
+<script src="./TRMS_EMP.js"></script>
+
+</html>
