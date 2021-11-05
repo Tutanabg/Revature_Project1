@@ -8,7 +8,7 @@ Front-end: JavaScript, HTML, CSS, AJAX
 Testing: Selenium, Cucumber, JUnit 4
 
 
-Sample
+Below are Selected Code Samples
 1. End Points:
    http://localhost:7004/employee/2       //Used to retrieve employee 
     http://localhost:7004/employee         // endpoint used to create employee
@@ -72,6 +72,8 @@ Sample
 </body>
 <script src="./TRMS.js"></script>
 </html>
+
+
 
 
 
