@@ -6,3 +6,17 @@ Back-end: Java, SQL, Hibernate
 Middle-tier: Javalin
 Front-end: JavaScript, HTML, CSS, AJAX
 Testing: Selenium, Cucumber, JUnit 4
+
+
+Sample
+1. End Points:
+   http://localhost:7004/employee/2       //Used to retrieve employee 
+    http://localhost:7004/employee         // endpoint used to create employee
+    http://localhost:7004/employee/9    // endpoint used to update employee
+2. ER Diagram 
+
+ ![ER_MODEL](https://user-images.githubusercontent.com/66039997/140571702-6e607f55-719d-498d-965c-af9644635a45.JPG)
+
+
+
+    
