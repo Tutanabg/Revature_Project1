@@ -20,7 +20,7 @@ Below are Selected Code Samples
 
 
     
-3. HTML for to Submit Request
+3. HTML to Submit Request
 
 <html lang="en">
 <head>
